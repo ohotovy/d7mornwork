@@ -1,0 +1,46 @@
+html {
+    font-size: 32px;
+}
+
+
+body {
+    height: 100vh;
+    margin: 0px;
+    background: transparent url('/img/dune-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+}
+
+.shade {
+    background-color: rgba(0,0,0,0.5);
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.name {
+    align-self: flex-end;
+    padding: 1rem;
+}
+
+.tease {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding-right: 2rem;;
+    h2 {
+        margin: 0.5rem;
+    }
+    h3 {
+        align-self: flex-end;
+        margin: 0.5rem;
+    }
+}
